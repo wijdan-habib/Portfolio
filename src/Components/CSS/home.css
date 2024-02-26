@@ -1,0 +1,64 @@
+.bgimg {
+  position: relative;
+  width: 100%;
+  height: 100lvh;
+  background-image: url('https://www.shutterstock.com/image-photo/male-hands-typing-on-laptop-260nw-2086966642.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bgimg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(4px); /* Adjust the blur amount as needed */
+}
+.content {
+    position: relative;
+    z-index: 1
+}
+
+.logo{
+    color: #833471;
+}
+ul li{
+    color: rgba(206, 229, 245, 0.801);
+    text-decoration: none
+}
+ul li a{
+    color: rgba(206, 229, 245, 0.801);
+    text-decoration: none
+}
+.cont{
+    color: rgba(206, 229, 245, 0.801);
+    font-weight:bold;
+}
+.btn1{
+  background-color: #833471;
+  border: 2px solid rgb(145, 55, 145);
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: rgba(206, 229, 245, 0.801);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn2{
+  background-color: transparent;
+  border: 2px solid #833471;
+  padding: 10px 20px;
+  color: rgba(206, 229, 245, 0.801);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
