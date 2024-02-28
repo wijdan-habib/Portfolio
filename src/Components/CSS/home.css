@@ -26,13 +26,15 @@
     color: #833471;
 }
 ul li{
-    color: rgba(206, 229, 245, 0.801);
-    text-decoration: none
-}
+    color: #192734;
+    text-decoration: none;
+    font-weight:bold;
+  }
 ul li a{
-    color: rgba(206, 229, 245, 0.801);
-    text-decoration: none
-}
+    color: #192734;
+    text-decoration: none;
+    font-weight:bold;
+  }
 .cont{
     color: rgba(206, 229, 245, 0.801);
     font-weight:bold;

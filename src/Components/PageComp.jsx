@@ -1,8 +1,8 @@
 import React from "react";
-import img from "./img/mobile-button.png";
-import logo2 from './img/mobile-device.png';
-import logo3 from './img/cloud.png';
-import logo4 from './img/laptop.png'
+import img from "../img/mobile-button.png";
+import logo2 from '../img/mobile-device.png';
+import logo3 from '../img/cloud.png';
+import logo4 from '../img/laptop.png'
 export default function PageComp() {
   const data = [
     {
@@ -61,10 +61,10 @@ export default function PageComp() {
           </div>
         </div>
         <div classname="container d-flex flex-column">
-            <div className="row flex-nowrap">
+            <div className="row flex-wrap">
         {
             data.map((e)=>(
-            <div className="col-md-4">
+            <div className="col-md-4 col-sm">
             <div class="card border-0 ">
               <img class="card-img-top img-fluid d-block mx-auto mt-3" style={{ width: '50px' }} src={e.logo} alt="Card cap" />                
                <div class="card-body">
@@ -82,11 +82,11 @@ export default function PageComp() {
         }
         </div> 
         </div>
-        <div classname="container d-flex flex-column">
-            <div className="row flex-nowrap">
+        <div classname="container d-flex">
+            <div className="row flex-wrap">
         {
             card.map((e)=>(
-            <div className="col-md-4">
+            <div className="col-md-4 col-sm">
             <div class="card border-0 ">
               <img class="card-img-top img-fluid d-block mx-auto mt-3" style={{ width: '50px' }} src={e.logo} alt="Card cap" />                
                <div class="card-body">
